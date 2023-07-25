@@ -74,6 +74,20 @@
         input[type="submit"]:hover {
             background-color: #0056b3;
         }
+
+        .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 
@@ -97,6 +111,7 @@
     <!-- Div para mostrar o valor total -->
     <div id="valor_total_cotacao">Valor Total da Cotação: R$ 0.00</div>
 
+    <a href="cotacoes.php" class="button">Acessar Cotações</a>
 
     <script>
         // Variável global para controlar o id_cotacao
